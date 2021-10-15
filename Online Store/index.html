@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- This is where Meta data will go-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link href="index.css" type="text/css" rel="stylesheet">
+        <title>Ellison's Portfolio</title>
+    </head>
+
+<body>
+
+  <H1>Store<H1>
+      <span></span>
+      <h5><span>Name1<input type="text" id="velocita1"></span><span>Name2<input type="text" id="velocita2"></span><span>Name3<input type="text" id="velocita3"></span><span>Name4<input type="text" id="velocita4"></span></h5>
+    <br>
+    <br>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+            <img class="img img-thumbnail" src="https://honestlywtf.com/wp-content/uploads/2012/01/beadbracelet13.jpg">
+        </div>
+            <div class="col-lg-9">
+              <h2>Name of Bracelet</h2>
+                    <p>
+                            Put a message here
+                            <br>tell the customers what colors beads are
+                    </p>
+                        <button onclick="addToVel1(1)">+</button>
+                        <button onclick="addToVel1(-1)">-</button>
+                
+                    <script>
+                
+                        var vel1 = 0;
+                        document.getElementById("velocita1").value = vel1;
+                
+                        function addToVel1(amount){
+                         vel1 += amount;
+                        document.getElementById("velocita1").value = vel1;
+                        }
+                    </script>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+            <img class="img img-thumbnail" src="https://honestlywtf.com/wp-content/uploads/2012/01/beadbracelet13.jpg">
+        </div>
+            <div class="col-lg-9">
+                <h2>Name of Bracelet</h2>
+                <p>
+                        Put a message here
+                        <br>tell the customers what colors beads are
+                </p>
+                        <button onclick="addToVel2(1)">+</button>
+                        <button onclick="addToVel2(-1)">-</button>
+                                              
+                            <script>
+                                              
+                                    var vel2 = 0;
+                                    document.getElementById("velocita2").value = vel2;
+                                              
+                                    function addToVel2(amount){
+                                    vel2 += amount;
+                                    document.getElementById("velocita2").value = vel2;
+                                              }
+                            </script>
+                </div>
+            </div>
+            </div>
+                <br>
+                <br>
+                    <div class="container">
+                        <div class="row">
+                          <div class="col-lg-3">
+                            <img class="img img-thumbnail" src="https://honestlywtf.com/wp-content/uploads/2012/01/beadbracelet13.jpg">
+                          </div>
+                          <div class="col-lg-9">
+                            <h2>Name of Bracelet</h2>
+                            <p>
+                                    Put a message here
+                                    <br>tell the customers what colors beads are
+                            </p>
+                              <button onclick="addToVel3(1)">+</button>
+                              <button onclick="addToVel3(-1)">-</button>
+                              
+                              <script>
+                              
+                              var vel3 = 0;
+                              document.getElementById("velocita3").value = vel3;
+                              
+                              function addToVel3(amount){
+                                vel3 += amount;
+                                document.getElementById("velocita3").value = vel3;
+                              }
+                              </script>
+                          </div>
+                      </div>
+                      </div>
+                      <br>
+                      <br>
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-lg-3">
+                                  <img class="img img-thumbnail" src="https://honestlywtf.com/wp-content/uploads/2012/01/beadbracelet13.jpg">
+                              </div>
+                              <div class="col-lg-9">
+                                  <h2>Astros</h2>
+                                  <h2>Name of Bracelet</h2>
+                                  <p>
+                                          Put a message here
+                                          <br>tell the customers what colors beads are
+                                  </p>
+                                      <button onclick="addToVel4(1)">+</button>
+                                      <button onclick="addToVel4(-1)">-</button>
+                                                            
+                                          <script>
+                                                            
+                                                  var vel4 = 0;
+                                                  document.getElementById("velocita4").value = vel4;
+                                                            
+                                                  function addToVel4(amount){
+                                                  vel4 += amount;
+                                                  document.getElementById("velocita4").value = vel4;
+                                                            }
+                                          </script>
+                              </div>
+                          </div>
+                          </div>
+                          <br>
+                          <br>
+                          <h3>What is the name of this assignment?</h3>
+                          <input id = "name" class="form-control" type="text" placeholder="Enter Name Here" value = "">
+</body>
+</html>
