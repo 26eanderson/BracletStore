@@ -11,8 +11,8 @@
 <body>
 
   <H1>Store<H1>
-      <span></span>
-      <h5><span>Name1<input type="text" id="velocita1"></span><span>Name2<input type="text" id="velocita2"></span><span>Name3<input type="text" id="velocita3"></span><span>Name4<input type="text" id="velocita4"></span></h5>
+    <br>
+    <h5><div id = "emptyDiv"></div>
     <br>
     <br>
 <div class="container">
@@ -39,6 +39,11 @@
                         document.getElementById("velocita1").value = vel1;
                         }
                     </script>
+                    <input type="text" id="velocita1">
+                                                                                  <input id = "name1" class="form-control" type="text" placeholder="Enter Name Here" value = "Enter Name Here">
+                                                                                  <!-- Submit -->
+                                                                                  <button id = "submit1" type="button" class="btn btn-primary" onsubmit="myScript1">Add This Order</button>
+                                                                                </form>
         </div>
     </div>
     </div>
@@ -68,6 +73,11 @@
                                     document.getElementById("velocita2").value = vel2;
                                               }
                             </script>
+                            <input type="text" id="velocita2">
+                                                                                          <input id = "name2" class="form-control" type="text" placeholder="Enter Name Here" value = "">
+                                                                                          <!-- Submit -->
+                                                                                          <button id = "submit2" type="button" class="btn btn-primary" onsubmit="myScript2">Add This Order</button>
+                                                                                        </form>
                 </div>
             </div>
             </div>
@@ -97,6 +107,11 @@
                                 document.getElementById("velocita3").value = vel3;
                               }
                               </script>
+                              <input type="text" id="velocita3">
+                                                                                            <input id = "name3" class="form-control" type="text" placeholder="Enter Name Here" value = "">
+                                                                                            <!-- Submit -->
+                                                                                            <button id = "submit3" type="button" class="btn btn-primary" onsubmit="myScript3">Add This Order</button>
+                                                                                          </form>
                           </div>
                       </div>
                       </div>
@@ -108,7 +123,6 @@
                                   <img class="img img-thumbnail" src="https://honestlywtf.com/wp-content/uploads/2012/01/beadbracelet13.jpg">
                               </div>
                               <div class="col-lg-9">
-                                  <h2>Astros</h2>
                                   <h2>Name of Bracelet</h2>
                                   <p>
                                           Put a message here
@@ -127,12 +141,21 @@
                                                   document.getElementById("velocita4").value = vel4;
                                                             }
                                           </script>
+                                          <input type="text" id="velocita4">
+                                                              <input id = "name4" class="form-control" type="text" placeholder="Enter Name Here" value = "">
+                                                              <!-- Submit -->
+                                                              <button id = "submit4" type="button" class="btn btn-primary" onsubmit="myScript4">Add This Order</button>
+                                                            </form>
                               </div>
                           </div>
                           </div>
                           <br>
                           <br>
-                          <h3>What is the name of this assignment?</h3>
-                          <input id = "name" class="form-control" type="text" placeholder="Enter Name Here" value = "">
-</body>
+                        </h5>
+<!-- JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="index.js" ></script>
+    </body>
 </html>
